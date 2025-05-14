@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background:black;
+    background-size: cover;
+} 
+.Head{
+    color: color-mix(in srgb, rgb(160, 211, 245) 70%, #eded05 75%);
+    font-family: "Geneva";
+   display: flex;
+   justify-content: center;
+   font-size:500%;
+   font-weight: bolder;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   color: white;
+}
+.tittle-1{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+.video{
+    display: flex;
+   margin-top: 50px;
+  margin-left: 100px;
+    width: 85%;
+}
+ @media only screen and (max-width:1600px) {
+    .video{
+        display:block;
+      width: 100%;
+      margin-left: 0px;
+    }
+ }
+ 
+  @media only screen and (max-width:1600px) {
+    .Head{
+        display:block;
+        text-align: center;
+        font-size: 150%;
+        align-items: center;
+    }
+ }
+ .search{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+ }
+ .input{
+       width: 50%;
+    height: 50%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+ }
+  @media only screen and (max-width:1600px) {
+    .input{
+        display:block;
+        width: 80%;
+        height: 50%;
+        align-items: center;
+        
+    }
+ }
+ .icon{
+    color: rgb(12, 9, 9);
+   position:relative;
+   right: 50px;
+  top: 10px;
+ }
+ .input:hover{
+     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+     border: 1px solid blue;
+     cursor: pointer; 
+}
+.icon:hover{
+    cursor: pointer;
+}
+
+  @media only screen and (max-width:1600px) {
+    .card-group{
+        
+        width:100%;
+        margin-left:0px;
+        display: flex;
+        gap: 8px;
+        
+    }
+ }
+ @media only screen and (max-width:1600px) {
+    .card-img-top{
+       
+   width: 100%;
+   margin-left: 0%;
+    }
+ }
+.card-img-top{
+    width: 60%;
+    margin-left: 50px;
+  
+}
+
+.card-group{
+    display: flex;
+
+}
+.card{
+    width: 40%;
+    height: 40%  !important;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+ @media only screen and (max-width:1600px) {
+    .card{
+       
+        width:100%;
+        margin-left:0px;
+        
+    }
+ }
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: transform 0.1s ease;
+    transform: scale(1.1);
+    overflow: hidden;
+     display: inline-block;
+     border: 10px solid white;
+     border-radius: 20px;
+     cursor: pointer;
+}
+.card-text{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+}
+@media only screen and (max-width:1600px) {
+    .card-text{
+       
+        margin-left: 10px;
+        font-weight: bold;
+        color: white;
+       
+
+    }
+    
+ }
+.card-texts{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size:250%;
+    color: white;
+}
+@media only screen and (max-width:1600px) {
+    .card-texts{
+       
+        margin-left:10px;
+        font-weight: bold;
+        font-size:x-large;
+        align-items: center;
+        color: white;
+    }
+ }
+.old-price {
+  text-decoration: line-through;
+  color: #555;
+  color: white; 
+  
+}
+@media only screen and (max-width:1600px) {
+    .old-price{
+       
+        font-size: small;
+        color: white;
+    }
+ }
+@media only screen and (max-width:1600px) {
+    .mrp{
+        margin-left: 10px;
+        font-size: small;
+        color: white;
+    }
+ }
+.card-title{
+    margin-left: 15px;
+    font-weight: bold;
+    color: white;
+}
+@media only screen and (max-width:1000px) {
+    .card-title{
+       
+        margin-left: 20px;
+        font-weight: bold;
+        color: white;
+    }
+ }
+.card-text:hover{
+   cursor: pointer;
+   color: goldenrod;
+}
+.star{
+  color:goldenrod;
+  margin-left:10px;
+  margin-top: 8px;
+  font-weight: bolder;
+  background-color: goldenrod;
+  background-color: transparent;
+}
+@media only screen and (max-width:1000px) {
+    .star{
+       
+      font-size: bold;
+      margin-left: 8px;
+      margin-top: 4px;
+    }
+    @media only screen and (max-width:800px) {
+    .star{
+       
+      font-size: bold;
+      margin-left: 4px;
+      margin-top: 4px;
+    }
+ }
+ }
+.button{
+    background-color: #0937de36;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 16px;
+    align-items: center;
+    border: 5px solid #06f2f636 ;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width:1000px) {
+    .button{
+       
+      padding: 0px;
+      margin-left: 8px;
+      align-items: center;
+      border: 5px solid #06f2f636 ;
+       margin-top: 16px;
+       color: white;
+       font-weight: bold;
+    }
+    @media only screen and (max-width:800px) {
+    .button{
+       
+      padding: 0px;
+      margin-left: 2px;
+      align-items: center;
+      border: 5px solid #06f2f636 ;
+       margin-top: 16px;
+       color: white;
+       font-weight: bold;
+    }
+ }
+ }
+.buttons{
+    background-color: #0937de36;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 45%;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width:1000px) {
+    .buttons{
+     padding: 0px;
+    margin-left: 3px;
+    }
+    @media only screen and (max-width:1000px) {
+    .buttons{
+     padding: 0px;
+    margin-left: 0px;
+    }
+ }
+ }
+.butto{
+    margin-top:25px;
+    padding: 10px;
+}
+@media only screen and (max-width:1000px) {
+    .butto{
+   margin-top: 15px;
+   padding: 0px;
+    }
+    @media only screen and (max-width:1000px) {
+    .butto{
+   margin-top: 15px;
+   padding: 0px;
+    }
+ }
+ }
+.buttoo{
+    margin-left: 45%;
+    padding: 10px;
+    margin-top: 16px;
+}
+@media only screen and (max-width:1000px) {
+    .buttoo{
+   margin-top: 15px;
+   padding: 0px;
+   margin-left: 0px;
+    }
+    @media only screen and (max-width:800px) {
+    .buttoo{
+   margin-top: 5px;
+   padding: 0px;
+   margin-left: 0px;
+    }
+ }
+ }
+.str{
+    margin-top: 15px;
+}
+@media only screen and (max-width:1000px) {
+    .str{
+       
+        margin-left: 5px;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+ }
+.main-video{
+    display: flex;
+    gap:20px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+    .videos {
+      width: 100%;
+      transform: translateX(-100%);
+      animation: slideIn 6s ease-out forwards;
+    }
+     @keyframes slideIn {
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    
+    .tittle-1 {
+      font-size: 2rem;
+      color: white;
+     
+      border: 4px solid transparent;
+      border-radius: 8px;
+      position: relative;
+      cursor: pointer;
+      z-index: 1;
+      width: 140px;
+    }
+
+    .tittle-1::before {
+      content: '';
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      right: -4px;
+      bottom: -4px;
+      border: 4px solid;
+      border-image: linear-gradient(
+        45deg,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet,
+        red
+      ) 1;
+      border-radius: 12px;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      animation: borderAnimation 4s linear infinite;
+    }
+
+    .tittle-1:hover::before {
+      opacity: 1;
+    }
+
+    @keyframes borderAnimation {
+      0% {
+        border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      }
+      100% {
+        border-image-source: linear-gradient(405deg, red, orange, yellow, green, blue, indigo, violet, red);
+      }
+    }
+    .title-2{
+        display: flex;
+    text-align: center;
+    color: white;
+    }
+    .tittle-2{
+        margin-top: 50px;
+        margin-left: 50px;
+         font-size:3rem;
+        font-weight: bolder;
+        color: white;
+    }
+    .tittle-2:hover{
+        color: rgb(238, 241, 58);
+    }
+    .navi{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        margin-top: 50px;
+        list-style-type: none;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+.line{
+    text-decoration: none;
+    border-bottom: none;
+    color:blue;
+}
+.line:hover{
+    text-decoration: underline;
+    color: goldenrod;
+    font-size: xx-large;
+}
+  
+     @media only screen and (max-width:1000px) {
+        .navi{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            font-weight: bolder;
+            font-family:sans-serif;
+
+        }
+        
+     }
+     .stars{
+         color:goldenrod;
+  margin-left:10px;
+  margin-top: 28px;
+  font-weight: bolder;
+  background-color: goldenrod;
+  background-color: transparent;
+     }
+     @media only screen and (max-width:1000px) {
+    .stars{
+       
+      font-size: bold;
+      margin-left: 8px;
+      margin-top: 9px;
+    }
+    @media only screen and (max-width:1000px) {
+    .stars{
+       
+      font-size: bold;
+      margin-left: 2px;
+      margin-top: 9px;
+    }
+ }
+ }
+ .starss{
+    color:goldenrod;
+  margin-left:10px;
+  margin-top: 20px;
+  font-weight: bolder;
+  background-color: goldenrod;
+  background-color: transparent;
+ }
+   @media only screen and (max-width:1000px) {
+    .starss{
+       
+      font-size: bold;
+      margin-left: 8px;
+      margin-top: 9px;
+    }
+      @media only screen and (max-width:1000px) {
+    .starss{
+       
+      font-size: bold;
+      margin-left: 4px;
+      margin-top: 9px;
+    }
+ }
+   
+ }
+ .texts{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+ }
+ .text-btn{
+    padding: 10px;
+    width: 15%;
+    display: flex;
+   justify-content: center;
+   font-weight: bold;
+   margin-top: 10px;
+   border-radius: 20px;
+   background-color: #eded05;
+   color: white;
+   border: 1px solid white;
+   font-size: larger;
+ }
+ @media  only screen and(max-width:1600px) {
+    .text-btn{
+        width: 20%;
+        font-size: larger;
+
+    }
+     @media  only screen and(max-width:800px) {
+    .text-btn{
+        width: 10%;
+        font-size: larger;
+
+    }
+    
+ }
+    
+ }
+ .text-btn:hover{
+    cursor: pointer;
+ }
+ .headbtn{
+  display: flex;
+  justify-content: center;
+ }
+ .second text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+ .para{
+    display:flex ;
+    justify-content: center;
+    color: white;
+ }
+ .hr{
+    margin-top: 200px;
+    width: 95%;
+    margin-left: 50px;
+    border: none;
+    border-bottom: 5px solid white;
+    background-color: transparent;
+ }
+ @media only screen and (max-width:1600px) {
+    .hr{
+        margin-left: 25px;
+
+    }
+     @media only screen and (max-width:800px) {
+    .hr{
+        margin-left: 10px;
+
+    }
+ }
+ }
+ .hrs{
+    margin-top: 5px;
+    width: 95%;
+    margin-left: 50px;
+    border: none;
+    border-bottom: 5px solid white;
+     background-color: transparent;
+ }
+  @media only screen and (max-width:1600px) {
+    .hrs{
+        margin-left: 25px;
+
+    }
+     @media only screen and (max-width:800px) {
+    .hrs{
+        margin-left: 10px;
+
+    }
+ }
+ }
+.one{
+    display: flex;
+   margin-left: 200px;
+   margin-top: 50px;
+   color: white;
+   font-weight: bolder;
+}
+.two{
+    display: flex;
+    margin-left: 200px;
+    color: white;
+}
+.two:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media only screen and (max-width:1600px) {
+    .one{
+        margin-left: 500px;
+    }
+    @media only screen and (max-width:800px) {
+    .one{
+        margin-left: 100px;
+    }
+
+}
+
+}
+@media only screen and (max-width:1600px) {
+    .two{
+        margin-left: 500px;
+    }
+    @media only screen and (max-width:800px) {
+    .two{
+        margin-left: 100px;
+    }
+    
+}
+    
+}
