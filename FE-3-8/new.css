@@ -1,0 +1,342 @@
+ /* .main{
+    display: flex;
+}
+.sub{
+    display: flex;
+    flex: 1;
+}
+.content{
+    
+    flex: 1;
+}
+@media only screen and (max-width:1050px){
+    .main{
+        display: block;
+    }
+}
+@media only screen and (max-width:900px){
+    .sub{
+        display: block;
+    }
+} */ 
+
+
+ /* .main{
+    display: flex;
+ }
+ .sub{
+    display: flex;
+    flex: 1;
+ }
+ .para1{
+    background-color: red;
+    flex: 1;
+ }
+ .para2{
+    background-color: brown;
+    flex: 1;
+ }
+ .para3{
+    background-color: yellow;
+    flex: 1;
+ }
+ @media only screen and (max-width:1100px){
+    .main{
+        display: block;
+    }
+    .main:hover{
+        opacity: 0.1;
+    }
+ }
+ @media only screen and (max-width:500px){
+    .sub{
+        display: block;
+    }
+ }*/
+ 
+
+
+/* 
+ .main{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+
+ }
+ para:nth-child(odd){
+    background-color: green;
+ }
+ para:nth-child(even){
+    background-color:blue;
+ } */
+  
+/* *{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+     display: flex;
+    flex-direction: column; 
+ 
+    
+}
+
+.para{
+    background-color: brown;
+    display: flex; 
+    height: 100vh; 
+     flex-grow: 1; 
+
+    
+}
+.input{
+    text-align: center;
+    background-color: blue;
+}
+
+  */
+
+
+
+
+/* 
+
+  .button{
+    width: 100px;
+    height: 50px;
+    font-size: smaller;
+
+  }
+  .shirt:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .all{
+    width: 100px;
+  }
+   */
+
+
+/* .labelone{
+    width: 100px !important;
+}
+.para1{
+    background-color: red;
+}
+.para2{
+    background-color:pink;
+}
+.para3{
+    background-color:blue;
+}
+.para4{
+    background-color:brown;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+.mainDiv{
+    display: flex;
+}
+
+.subDiv1{
+    flex: 1;
+}
+.profile{
+    border-radius: 50%;
+    border: 1px solid rgb(207, 201, 201);
+    width: 40px;
+}
+.fa-triangle-exclamation{
+    margin-top: 20px;
+     font-size: 30px;
+
+
+}
+
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 230, 230);
+    padding: 5px;
+
+}
+
+.navIcon{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.contacts{
+    display: flex;
+    background-color: rgb(152, 227, 252); 
+    justify-content: space-evenly;
+    border-radius: 5px;
+
+
+
+}
+
+
+.para1{
+    background-color: rgb(152, 227, 252); 
+    
+}
+
+.search{
+    margin-top: 10px;
+}
+
+.chats{
+    display: flex;
+    background-color:rgb(241, 238, 238); 
+    border: 1px solid rgb(180, 183, 185); 
+    border-radius: 5px;
+}
+
+.chats:hover{
+   border-color: rgb(67, 186, 146);
+
+}
+
+.msg{
+padding-left: 15px;
+}
+
+.subDiv2{
+    flex: 2;
+}
+
+i{
+    color:skyblue;
+}
+
+
+
+/* subDiv2 slide */
+
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 230, 230);
+    border:  1px  solid rgb(198, 196, 196);
+    padding: 5px;
+
+
+}
+
+.col1{
+    display: flex;
+}
+
+.col2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.lock{
+            width: 80%; 
+        margin: 0 auto;  
+        text-align: center; 
+
+    font-size: 12px;
+    font-weight:bold;
+    margin-top: 5px;
+    background-color: rgb(248, 219, 178);
+}
+
+.day{
+    width: 6%;
+    text-align: center;
+margin: 10px auto;
+background-color: rgb(164, 248, 248);
+}
+
+.message{
+    display: flex;
+    justify-content: space-around;
+}
+
+.from{
+    margin: 15px 70px;
+}
+
+.leftSide{
+    display: flex;
+    justify-content: space-between;
+    /* width: 30%; */
+    text-align:start;
+    margin: 50px 0 0 0;
+    background-color: rgb(239, 238, 238);
+     border-radius: 5px;
+     padding: 5px;
+}
+
+time{
+
+    margin-left: 60px;
+}
+
+.to{
+    margin: 60px 70px;
+}
+.rightSide{
+display: flex;
+justify-content: space-between;
+/* width: 90%; */
+margin: 50px 0 0 0 ;
+text-align:center;
+background-color: rgb(188, 244, 189);
+ border-radius: 5px;
+ padding: 5px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(246, 245, 245);
+}
+
+
+input{
+border: none;
+width: 900px;
+border-radius: 5px;
+padding: 5px;
+justify-content: start;
+}
+
+.attach{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.sendBtn{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.chat-background{
+    position: absolute;
+    opacity: 0.4;
+ transition: opacity 0.3s;
+
+    
+
+    
+}
+
+
+
+

@@ -1,0 +1,87 @@
+<!-- <!--<html>
+    <head>
+<style>
+ .maincontent{
+   display: flex;
+ }    
+ .submain{
+    display: flex;
+    flex: 1;
+ }
+ .para{
+    flex: 1;
+ }
+ @media only screen and  (max-width:600px){
+    .submain{
+     display: block;
+    }
+ }
+ @media only screen and (max-width:1000px){
+    .maincontent{
+        display:block;
+    }
+ }
+ 
+</style>
+    </head>
+    <body>
+<h1 class="head">heading tag</h1>
+
+<div class="maincontent">
+    <div class="submain">
+        <p class="para" style="background-color: pink;">para content .</p>
+        <p class="para" style="background-color: red;">para content</p>
+    </div>
+<div class="submain">
+    <p class="para" style="background-color: yellow;">para content</p>
+    <p class="para" style="background-color: blue;">para content</p>
+</div>
+</div>
+
+    </body>
+</html>-->
+<html>
+    <head>
+<style>
+    .mainContainer1{
+    display: flex;
+}
+.subContent{
+    flex:1;
+    display: flex;
+}
+.content{
+    flex:1
+}
+@media only screen and (max-width:1000px){
+    .subContent{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    .mainContainer1{
+        display: block;
+    }
+
+}
+
+
+</style>
+    </head>
+ <body>
+
+    <div class="mainContainer1">
+        <div class="subContent">
+      <p class="content" style="background-color: red;">para1</p>
+      <p class="content" style="background-color: blue;">para2</p>
+        </div>
+        <div class="subContent">
+      <p class="content" style="background-color: yellow;">para3</p>
+      <p class="content" style="background-color: green;">para4</p>
+        </div>
+       
+    </div>
+ </body>
+</html> -
